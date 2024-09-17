@@ -10,7 +10,7 @@ const signIn = (email: string, password: string): Promise<AuthData> => {
         resolve({
           token: JWTTokenMock,
           email: email,
-          name: 'alan',
+          name: 'oliver',
         });
       } else {
         reject(new Error('credenciais incorretas'));
